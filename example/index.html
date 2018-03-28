@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Image Gallery</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css"/> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="../image-gallery.css"/>
+	<script type="text/javascript" src="../image-gallery.js"></script>
+</head>
+<body>
+	<div class="fs-gallery-container">
+		<div class="fs-gallery-preview">
+			<img src="images/1.jpg" alt=""/>
+		</div>
+		<ul class="fs-gallery-thumb-container">
+			<li class="fs-gallery-thumb">
+				<img src="images/1.jpg" data-preview-image="images/1.jpg" alt=""/>
+			</li>
+			<li class="fs-gallery-thumb">
+				<img src="images/2.jpg" data-preview-image="images/2.jpg" alt=""/>
+			</li>
+			<li class="fs-gallery-thumb">
+				<img src="images/3.jpg" data-preview-image="images/3.jpg" alt=""/>
+			</li>
+			<li class="fs-gallery-thumb">
+				<img src="images/4.jpg" data-preview-image="images/4.jpg" alt=""/>
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		var gallery = new ImageGallery();
+	</script>
+</body>
+</html>
